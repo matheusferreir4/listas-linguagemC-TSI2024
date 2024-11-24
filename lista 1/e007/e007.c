@@ -25,3 +25,19 @@ int main (){
 
     return 0;
 }
+
+//Esse programa abaixo pode funcionar melhor ~ 24/11
+
+/*#include <stdio.h>
+
+int dispositivo(int placa){
+    int centenas = (placa / 100) % 10;
+    return centenas;
+}
+
+int main(){
+    int placa = 3298;
+    int centenas = dispositivo(placa);
+    printf("\n%d\n", centenas);
+    return 0;
+}*/ 
