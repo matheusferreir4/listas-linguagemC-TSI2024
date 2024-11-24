@@ -21,3 +21,19 @@ int main (){
 
     return 0;
 }
+
+/*#include <stdio.h>
+#include <math.h>
+
+int dispositivo(int a1, int n, int q){
+    int soma = a1 * (1 - pow(q, n)) / (1 - q);
+    return soma;
+}
+
+int main(){
+    int a1 = 5, n = 3, q = 2;
+    int p = dispositivo(a1, n, q);
+    printf("\n%d", p);
+    
+    return 0;
+}*/
